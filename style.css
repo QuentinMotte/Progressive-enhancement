@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+* {
+    font-family: "open sans";
+}
+body {
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgb(173, 206, 235), rgb(233, 237, 241));
+}
+header {
+    position: relative;
+}
+header h1 {
+    background-color: rgba(236, 236, 8, 0.774);
+}
+img {
+    /* position: absolute; */
+    float: right;
+    height: 400px;
+    margin: 30px;
+}
+p {
+    line-height: 25px;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: rgb(90, 79, 79);
+}
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(68, 66, 66);
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(39, 38, 38);
+}
+a:visited {
+    color: rgb(196, 34, 34);
+}
+a:visited:hover {
+    color: rgb(37, 36, 36);
+}
+blockquote {
+    width: 50%;
+    margin: 80px auto;
+    font-size: 160%;
+    background: rgb(211, 208, 208);
+    border-left: 3px solid;
+    padding-left: 30px;
+}
+.farmer {
+    border-left: 3px solid brown;
+}
+.villagers {
+    border-left: 3px solid grey;
+}
+q {
+    font-style: italic;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+tr:nth-child(2n + 1) {
+    color: grey;
+}
+th {
+    color: black;
+}
