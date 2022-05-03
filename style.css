@@ -64,8 +64,8 @@ q {
     color: red;
 }
 tr:nth-child(2n + 1) {
-    color: grey;
+    background: grey;
 }
 th {
-    color: black;
+    background: rgb(210, 228, 240);
 }
